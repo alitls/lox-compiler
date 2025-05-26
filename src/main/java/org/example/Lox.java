@@ -18,7 +18,6 @@ public class Lox {
         app(args);
     }
 
-    //jlox file
     private static void app(String[] args) throws IOException {
         if (args.length > 1) {
             System.out.println("Usage: jlox [script]");
@@ -61,6 +60,7 @@ public class Lox {
     }
 
     static void error(int line, String message) {
+
         report(line, "", message);
     }
 

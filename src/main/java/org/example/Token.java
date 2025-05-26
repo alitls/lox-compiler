@@ -9,7 +9,6 @@ import lombok.ToString;
 @Setter
 @AllArgsConstructor
 public class Token {
-    //vazhe
     private TokenType type;
     private String lexeme;
     private Object literal;

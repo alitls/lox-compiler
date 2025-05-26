@@ -9,7 +9,7 @@ class ScannerTest {
     @Test
     void test() {
         System.out.println("\n\n");
-        String source = "( ";
+        String source = "( )  ";
         Scanner scanner = new Scanner(source);
         scanner.scanTokens();
         scanner.print();

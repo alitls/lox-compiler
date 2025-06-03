@@ -9,10 +9,10 @@ import lombok.ToString;
 @Setter
 @AllArgsConstructor
 public class Token {
-    private TokenType type;
-    private String lexeme;
-    private Object literal;
-    private int line;
+     TokenType type;
+     String lexeme;
+     Object literal;
+     int line;
 
     @Override
     public String toString() {

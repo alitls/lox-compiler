@@ -1,8 +1,4 @@
-package org.example.tool;
-
-import java.util.List;
-
-import org.example.Token;
+package org.example;
 
 abstract class Expr {
     interface Visitor<R> {

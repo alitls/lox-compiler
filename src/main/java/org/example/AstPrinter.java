@@ -1,4 +1,4 @@
-package org.example.tool;
+package org.example;
 
 class AstPrinter implements Expr.Visitor<String> {
     String print(Expr expr) {

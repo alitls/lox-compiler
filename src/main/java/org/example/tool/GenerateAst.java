@@ -1,11 +1,11 @@
 package org.example.tool;
 
+
 import org.example.Token;
 import org.example.TokenType;
 
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.Arrays;
 import java.util.List;
 
 public class GenerateAst {
@@ -22,15 +22,15 @@ public class GenerateAst {
 //                "Literal  : Object value",
 //                "Unary    : Token operator, Expr right"
 //        ));
-        Expr expression = new Expr.Binary(
-                new Expr.Unary(
-                        new Token(TokenType.MINUS, "-", null, 1),
-                        new Expr.Literal(123)),
-                new Token(TokenType.STAR, "*", null, 1),
-                new Expr.Grouping(
-                        new Expr.Literal(45.67)));
-
-        System.out.println(new AstPrinter().print(expression));
+//        Expr expression = new Expr.Binary(
+//                new Expr.Unary(
+//                        new Token(TokenType.MINUS, "-", null, 1),
+//                        new Expr.Literal(123)),
+//                new Token(TokenType.STAR, "*", null, 1),
+//                new Expr.Grouping(
+//                        new Expr.Literal(45.67)));
+//
+//        System.out.println(new AstPrinter().print(expression));
     }
 
 
